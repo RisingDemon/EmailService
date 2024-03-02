@@ -35,12 +35,12 @@ img {
     border-radius: 8px;
     left: 87px;
 }
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     #ip {
         top: 488px;
         width: 60%;
     }
-}
+} */
 
 #ipEmail {
     width: 311px;
@@ -145,9 +145,12 @@ input:focus {
     }
     #pos{
         width: 285px;
-        left: 74px;
+        left: 60px;
+        top: 138px;
     }
     #ip {
-        margin-left: -14px;
+        margin-left: -27px;
+        top: 445px;
+        width: 60%;
     }
 }
