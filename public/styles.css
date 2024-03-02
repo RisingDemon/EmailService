@@ -25,6 +25,7 @@ img {
     width: 78%;
     height: 30px;
     border: none;
+    border-radius: 8px;
 }
 ::placeholder{
     color: black;

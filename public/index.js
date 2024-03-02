@@ -13,6 +13,7 @@ async function sendEmail(){
     console.log(userEmail.value);
     let bareEmail = userEmail.value;
     console.log("You have clicked the button");
+    userEmail.value = "";
     let response = await fetch('/api/sendEmail',{
         method:'POST',
         headers:{
